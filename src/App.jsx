@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div className='px-[71px]'>
+      <div className='px-2 sm:px-5 md:px-10 lg:px-14 xl:px-[81px]'>
       <NavBar/>
       </div>
     </>
