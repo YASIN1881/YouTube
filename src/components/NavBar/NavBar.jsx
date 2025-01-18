@@ -46,7 +46,7 @@ export default function NavBar() {
           <MdMic size={24} className="text-white/50 hover:text-white hover:cursor-pointer"/>
         </div>
         {/* icons bell setting */}
-        <div className="flex items-center justify-between gap-2 lg:gap-4 xl:gap-6">
+        <div className="flex items-center justify-between gap-2 lg:gap-4 xl:gap-6 child:hover:cursor-pointer">
           <MdAddCircleOutline size={24} className="text-white hidden sm:block"/>
           <MdCast size={24} className="text-white block sm:hidden" />
           <MdNotificationsNone size={24} className="text-white"/>
